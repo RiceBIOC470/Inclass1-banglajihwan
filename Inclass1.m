@@ -1,3 +1,4 @@
+%AW: Looks good 0.9/1 see couple comments below
 % InClass1: some simple excerises to get started with MATLAB. Please complete by
 % the second class. Answer questions in comments and return assignment via
 % github
@@ -78,6 +79,8 @@ oneToTen = 1:10;
 % do each of the following in two different ways, by manipulating the array
 % oneToTen and by defining it concisely from scratch
 
+%AW: You were supposed to do each of these two ways, as indicated in the question. -0.1
+
 % 1. even numbers from two to twenty
 %JAMES' ANSWER: 2:2:20
 % 2. odd numbers from one to nineteen
@@ -132,6 +135,7 @@ rand_nums(2:4,3)
 
 rand_nums(1:2,3:4)
 % JAMES' ANSWER: It extracts values from row 1 , 2 and column 3, 4. 
+%AW: this is a little ambiguous - exactly how many numbers?
 rand_nums(:,2)
 % JAMES' ANSWER: It extracts values entire column 2
 rand_nums(1,:)
